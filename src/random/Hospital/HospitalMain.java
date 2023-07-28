@@ -11,7 +11,7 @@ public class HospitalMain {
 
         System.out.println("Enter Contact Number");
         long contactNumber = scanner.nextLong();
-        scanner.nextLine(); // Consume the newline left by nextLong()
+        scanner.nextLine();
 
         System.out.println("Enter City");
         String city = scanner.nextLine();
