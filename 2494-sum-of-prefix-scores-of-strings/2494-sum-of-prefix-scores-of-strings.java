@@ -1,56 +1,51 @@
 class Solution {
-    class TrieNode {
-        int countP = 0; 
-        TrieNode[] children = new TrieNode[26];
-
-        public TrieNode() {
-            for (int i = 0; i < 26; i++) {
-                children[i] = null;
-            }
-            countP = 0;
-        }
-    }
-
-    private TrieNode getTrieNode() {
-        return new TrieNode(); 
-    }
-    private void insert(String word, TrieNode root) {
-        TrieNode crawl = root;
-        
-        for (char ch : word.toCharArray()) {
-            int idx = ch - 'a';
-            
-            if (crawl.children[idx] == null) {
-                crawl.children[idx] = getTrieNode();
-            }
-            
-            crawl.children[idx].countP += 1;
-            crawl = crawl.children[idx];
-        }
-    }
-    private int getScore(String word, TrieNode root) {
-        TrieNode crawl = root;
-        int score = 0;
-
-        for (char ch : word.toCharArray()) {
-            int idx = ch - 'a';
-            score += crawl.children[idx].countP;
-            crawl = crawl.children[idx];
-        }
-
-        return score;
-    }
-
     public int[] sumPrefixScores(String[] words) {
-        int n = words.length;
-        TrieNode root = getTrieNode();
-        for (String word : words) {
-            insert(word, root);
+        int wordCount = words.length;
+        Integer[] sortedIndices = new Integer[wordCount];
+        for (int i = 0; i < wordCount; i++) {
+            sortedIndices[i] = i;
         }
-        int[] result = new int[n];
-        for (int i = 0; i < n; i++) {
-            result[i] = getScore(words[i], root);
+        Arrays.sort(sortedIndices, (a, b) -> words[a].compareTo(words[b]));
+        
+        int[] commonPrefixLengths = calculateCommonPrefixLengths(words, sortedIndices);
+        int[] scores = calculateScores(words, sortedIndices, commonPrefixLengths);
+        return scores;
+    }
+
+    private int[] calculateCommonPrefixLengths(String[] words, Integer[] sortedIndices) {
+        int[] commonPrefixLengths = new int[words.length];
+        for (int i = 1; i < words.length; i++) {
+            String prevWord = words[sortedIndices[i - 1]];
+            String currWord = words[sortedIndices[i]];
+            int commonLength = 0;
+            while (commonLength < prevWord.length() && 
+                   commonLength < currWord.length() && 
+                   prevWord.charAt(commonLength) == currWord.charAt(commonLength)) {
+                commonLength++;
+            }
+            commonPrefixLengths[i] = commonLength;
         }
-        return result;
+        return commonPrefixLengths;
+    }
+
+    private int[] calculateScores(String[] words, Integer[] sortedIndices, int[] commonPrefixLengths) {
+        int[] scores = new int[words.length];
+        for (int i = 0; i < sortedIndices.length; i++) {
+            int wordIndex = sortedIndices[i];
+            int wordLength = words[wordIndex].length();
+            scores[wordIndex] += wordLength;
+            int j = i + 1;
+            int commonLength = wordLength;
+            while (j < words.length) {
+                commonLength = Math.min(commonLength, commonPrefixLengths[j]);
+                if (commonLength == 0) {
+                    break;
+                }
+                scores[wordIndex] += commonLength;
+                scores[sortedIndices[j]] += commonLength;
+                j++;
+            }
+        }
+        return scores;
     }
 }
