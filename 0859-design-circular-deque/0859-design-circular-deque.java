@@ -1,78 +1,89 @@
 class MyCircularDeque {
-    private LinkedList<Integer> deq;  // Using LinkedList to store deque elements
-    private int cnt;                  // Current number of elements in the deque
-    private int k;                    // Maximum capacity of the deque
 
-    /** Initialize your data structure here. Set the size of the deque to be k. */
+    private int[] deque;
+    private int capacity;
+    private int front;
+    private int rear;
+    private int count;
+
     public MyCircularDeque(int k) {
-        this.k = k;                   // Assign capacity
-        this.deq = new LinkedList<>(); // Initialize the deque as an empty LinkedList
-        this.cnt = 0;                  // Initialize count to 0
+        capacity = k;
+        deque = new int[capacity];
+        front = 0;
+        rear = capacity - 1;
+        count = 0;
     }
     
-    /** Adds an item at the front of Deque. Return true if the operation is successful. */
     public boolean insertFront(int value) {
-        if (cnt == k) {
-            return false;              // If the deque is full, insertion fails
+        if(isFull()){
+            return false;
         }
-        deq.addFirst(value);           // Insert at the front of the deque
-        cnt++;                         // Increment count
+        front = (front - 1 + capacity) % capacity;
+        deque[front] = value;
+        count++;
         return true;
     }
     
-    /** Adds an item at the rear of Deque. Return true if the operation is successful. */
     public boolean insertLast(int value) {
-        if (cnt == k) {
-            return false;              // If the deque is full, insertion fails
+        if(isFull()){
+            return false;
         }
-        deq.addLast(value);            // Insert at the rear of the deque
-        cnt++;                         // Increment count
+        rear = (rear + 1) % capacity;
+        deque[rear] = value;
+        count++;
         return true;
     }
     
-    /** Deletes an item from the front of Deque. Return true if the operation is successful. */
     public boolean deleteFront() {
-        if (cnt == 0) {
-            return false;              // If the deque is empty, deletion fails
+        if(isEmpty()){
+            return false;
         }
-        deq.removeFirst();             // Remove the front element
-        cnt--;                         // Decrement count
+        front = (front + 1) % capacity;
+        count--;
         return true;
     }
     
-    /** Deletes an item from the rear of Deque. Return true if the operation is successful. */
     public boolean deleteLast() {
-        if (cnt == 0) {
-            return false;              // If the deque is empty, deletion fails
+        if(isEmpty()){
+            return false;
         }
-        deq.removeLast();              // Remove the last element
-        cnt--;                         // Decrement count
+        rear = (rear - 1 + capacity) % capacity;
+        count--;
         return true;
     }
     
-    /** Get the front item from the deque. */
     public int getFront() {
-        if (cnt == 0) {
-            return -1;                 // If the deque is empty, return -1
+        if(isEmpty()){
+            return -1;
         }
-        return deq.getFirst();          // Return the front element
+        return deque[front];
     }
     
-    /** Get the last item from the deque. */
     public int getRear() {
-        if (cnt == 0) {
-            return -1;                 // If the deque is empty, return -1
+        if(isEmpty()){
+            return -1;
         }
-        return deq.getLast();           // Return the last element
+        return deque[rear];
     }
     
-    /** Checks whether the circular deque is empty or not. */
     public boolean isEmpty() {
-        return cnt == 0;               // Return true if the deque is empty
+        return count == 0;
     }
     
-    /** Checks whether the circular deque is full or not. */
     public boolean isFull() {
-        return cnt == k;               // Return true if the deque is full
+        return count == capacity;
     }
 }
+
+/**
+ * Your MyCircularDeque object will be instantiated and called as such:
+ * MyCircularDeque obj = new MyCircularDeque(k);
+ * boolean param_1 = obj.insertFront(value);
+ * boolean param_2 = obj.insertLast(value);
+ * boolean param_3 = obj.deleteFront();
+ * boolean param_4 = obj.deleteLast();
+ * int param_5 = obj.getFront();
+ * int param_6 = obj.getRear();
+ * boolean param_7 = obj.isEmpty();
+ * boolean param_8 = obj.isFull();
+ */
