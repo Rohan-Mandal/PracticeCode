@@ -1,92 +1,98 @@
-class AllOne {
-    private class Node {
-        int count;
-        LinkedHashSet<String> keys; 
-        Node prev, next;
-        
-        Node(int c) {
-            count = c;
-            keys = new LinkedHashSet<>();
-        }
+public class Node {
+    String key;
+    int count;
+    Node next;
+    Node prev;
+
+    public Node(String s, int n) {
+        count = n;
+        key = s;
+        next = null;
+        prev = null;
     }
-    
-    private Map<String, Node> keyCountMap;
-    
-    private Node head, tail;
-    
+}
+class AllOne {
+    private HashMap<String, Node> nodes = new HashMap();
+    Node head;
+    Node tail;
+
     public AllOne() {
-        keyCountMap = new HashMap<>();
-        head = new Node(0);
-        tail = new Node(0);
+        head = new Node("", -1);
+        tail = new Node("", Integer.MAX_VALUE);
         head.next = tail;
         tail.prev = head;
     }
-    
-    private Node addNodeAfter(Node prevNode, int count) {
-        Node newNode = new Node(count);
-        newNode.next = prevNode.next;
-        newNode.prev = prevNode;
-        prevNode.next.prev = newNode;
-        prevNode.next = newNode;
-        return newNode;
+
+    //b is directly after a
+    private void swap(Node a, Node b) {
+        Node t = b.next;
+        a.next = t;
+        t.prev = a;
+        b.next = a;
+        t = a.prev;
+        t.next = b;
+        a.prev = b;
+        b.prev = t;
     }
-    private void removeNode(Node node) {
+
+    private void delete(Node node) {
         node.prev.next = node.next;
         node.next.prev = node.prev;
+        node.next = null;
+        node.prev = null;
     }
 
+    private void updateInc(Node n) {
+        while (n.next != tail && n.count > n.next.count) {
+            swap(n, n.next);
+        }
+    }
+
+    private void updateDec(Node n) {
+        while (n.prev != head && n.count < n.prev.count) {
+            swap(n.prev, n);
+        }
+    }
+    
     public void inc(String key) {
-        if (!keyCountMap.containsKey(key)) {
-            if (head.next == tail || head.next.count != 1) {
-                addNodeAfter(head, 1);
+        Node n = nodes.getOrDefault(key, new Node(key, 0));
+        int c = ++n.count;
+        //if not new key
+        if(c != 1){
+            if(c > tail.prev.count){
+                delete(n);
+                n.next = tail;
+                n.prev = tail.prev;
+                tail.prev.next = n;
+                tail.prev = n;
+            }else{
+                updateInc(n);
             }
-            head.next.keys.add(key);
-            keyCountMap.put(key, head.next);
-        } else {
-            Node curNode = keyCountMap.get(key);
-            int curCount = curNode.count;
-            if (curNode.next == tail || curNode.next.count != curCount + 1) {
-                addNodeAfter(curNode, curCount + 1);
-            }
-            curNode.next.keys.add(key);
-            keyCountMap.put(key, curNode.next);
-            curNode.keys.remove(key);
-            if (curNode.keys.isEmpty()) {
-                removeNode(curNode);
-            }
+        }else { //new key
+            nodes.put(key,n);
+            n.prev = head;
+            n.next = head.next;
+            head.next.prev = n;
+            head.next = n;
         }
     }
-
+    
     public void dec(String key) {
-        if (!keyCountMap.containsKey(key)) {
-            return;
-        }
-        
-        Node curNode = keyCountMap.get(key);
-        int curCount = curNode.count;
-        curNode.keys.remove(key);
-        
-        if (curCount == 1) {
-            keyCountMap.remove(key);
+        Node n = nodes.get(key);
+        if (--n.count == 0) {
+            nodes.remove(key);
+            delete(n);
         } else {
-            if (curNode.prev == head || curNode.prev.count != curCount - 1) {
-                addNodeAfter(curNode.prev, curCount - 1);
-            }
-            curNode.prev.keys.add(key);
-            keyCountMap.put(key, curNode.prev);
-        }
-        
-        if (curNode.keys.isEmpty()) {
-            removeNode(curNode);
+            updateDec(n);
         }
     }
-
+    
     public String getMaxKey() {
-        return tail.prev == head ? "" : tail.prev.keys.iterator().next();
+        return head.next == tail ? "" : tail.prev.key;
     }
-
+    
     public String getMinKey() {
-        return head.next == tail ? "" : head.next.keys.iterator().next();
+        return head.next == tail ? "" : head.next.key;
     }
 }
 
