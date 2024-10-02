@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0070-climbing-stairs) |
+| [1761-count-sorted-vowel-strings](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1761-count-sorted-vowel-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2755-extra-characters-in-a-string) |
 ## Counting
 |  |
@@ -108,8 +109,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0070-climbing-stairs) |
+| [1761-count-sorted-vowel-strings](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1761-count-sorted-vowel-strings) |
 ## Memoization
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0070-climbing-stairs) |
+## Combinatorics
+|  |
+| ------- |
+| [1761-count-sorted-vowel-strings](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1761-count-sorted-vowel-strings) |
 <!---LeetCode Topics End-->
