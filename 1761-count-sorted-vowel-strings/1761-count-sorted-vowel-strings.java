@@ -1,15 +1,18 @@
 class Solution {
     public int countVowelStrings(int n) {
-        return binomialCoefficient(n + 4, 4);
-    }
-
-    private int binomialCoefficient(int n, int k) {
-        long res = 1;
-        for (int i = 0; i < k; i++) {
-            res *= (n - i);
-            res /= (i + 1);
+        int[] dp = new int[5];
+        Arrays.fill(dp, 1);
+        for (int i = 2; i <= n; i++) {
+            for (int j = 3; j >= 0; j--) {
+                dp[j] += dp[j + 1];
+            }
         }
-        return (int) res;
+        
+        int result = 0;
+        for (int count : dp) {
+            result += count;
+        }
+        return result;
     }
 }
 
