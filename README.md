@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0070-climbing-stairs) |
 | [2755-extra-characters-in-a-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2755-extra-characters-in-a-string) |
 ## Counting
 |  |
@@ -103,4 +104,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1256-rank-transform-of-an-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1256-rank-transform-of-an-array) |
+## Math
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
