@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0046-permutations](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0046-permutations) |
 | [0729-my-calendar-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0731-my-calendar-ii) |
 | [0859-design-circular-deque](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0859-design-circular-deque) |
@@ -137,4 +138,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0567-permutation-in-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0567-permutation-in-string) |
+## Backtracking
+|  |
+| ------- |
+| [0046-permutations](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0046-permutations) |
 <!---LeetCode Topics End-->
