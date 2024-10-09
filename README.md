@@ -120,11 +120,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1256-rank-transform-of-an-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1256-rank-transform-of-an-array) |
+| [2650-split-with-minimum-sum](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2650-split-with-minimum-sum) |
 ## Math
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0070-climbing-stairs) |
 | [1761-count-sorted-vowel-strings](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1761-count-sorted-vowel-strings) |
+| [2650-split-with-minimum-sum](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2650-split-with-minimum-sum) |
 ## Memoization
 |  |
 | ------- |
@@ -154,4 +156,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [2650-split-with-minimum-sum](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2650-split-with-minimum-sum) |
 <!---LeetCode Topics End-->
