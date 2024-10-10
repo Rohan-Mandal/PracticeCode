@@ -7,7 +7,7 @@ class Solution {
         for(int i = 1; i < len; i++){
             char currChar = s.charAt(i);
             if(prevChar + 1 == currChar){
-                max = Math.max(++count, max);
+                max = (max < ++count) ? count : max;
             }else{
                 count = 1;
             }
