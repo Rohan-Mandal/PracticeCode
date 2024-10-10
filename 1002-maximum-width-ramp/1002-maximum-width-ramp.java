@@ -1,25 +1,22 @@
 class Solution {
     public int maxWidthRamp(int[] nums) {
-        int[] maxRight = new int[nums.length];
-        maxRight[nums.length - 1] = nums[nums.length - 1];
-   
-        for (int i = nums.length - 2; i >= 0; i--) {
-            maxRight[i] = Math.max(maxRight[i + 1], nums[i]);
-        }
-
-        int ramp = 0;
-        int i = 0;
-        int j = 0;
-
-        // Find the maximum width ramp
-        while (j < nums.length) {
-            while (i < j && nums[i] > maxRight[j]) {
-                i++;
+        int rampValue = 0;
+        int min = Integer.MAX_VALUE;
+        for(int i = 0; i < nums.length; i++){
+            if(nums[i] >= min){
+                continue;
             }
-            ramp = Math.max(ramp, j - i);
-            j++;
+            min = nums[i];
+            for(int j = nums.length - 1; j > i; j--){
+                if(nums[i] <= nums[j]){
+                    rampValue = Math.max(rampValue, j - i);
+                    break;
+                }
+            }
+            if(rampValue > nums.length - i){
+                break;
+            }
         }
-
-        return ramp;
+        return rampValue;
     }
 }
