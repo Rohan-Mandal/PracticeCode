@@ -1,49 +1,36 @@
-import java.util.*;
 
 class Solution {
-
     public int smallestChair(int[][] times, int targetFriend) {
-        // Priority queue to store chairs in use, sorted by departure time
-        PriorityQueue<Map.Entry<Integer, Integer>> pq = new PriorityQueue<>(Comparator.comparingInt(Map.Entry::getKey));
-
-        int targetArrivalTime = times[targetFriend][0];
-
-        // Sort the times array by arrival time
-        Arrays.sort(times, Comparator.comparingInt(a -> a[0]));
-
-        // TreeSet to track available chair numbers, ordered to retrieve the smallest chair number
-        TreeSet<Integer> availableChairs = new TreeSet<>();
-
-        int lastChair = 0;
-
-        // Iterate through each friend's arrival and departure times
-        for (int[] time : times) {
-            int arrival = time[0];
-            int depart = time[1];
-            int currSeat;
-
-            // Release chairs that are now free
-            while (!pq.isEmpty() && pq.peek().getKey() <= arrival) {
-                availableChairs.add(pq.poll().getValue());
+        int targetArrival = times[targetFriend][0]; //[a,d]
+        Arrays.sort(times, new Comparator<int[]>(){
+            public int compare(int a[], int b[]){
+                return a[0] - b[0];
             }
-
-            // Assign a chair to the current friend
-            if (availableChairs.isEmpty()) {
-                currSeat = lastChair;
-                lastChair++;
-            } else {
-                currSeat = availableChairs.pollFirst(); // Get the smallest available chair
+        });
+        //[lt,chairNo]
+        PriorityQueue<int[]> occupied = new PriorityQueue<>(new Comparator<int[]>(){
+            public int compare(int a[], int b[]){
+                return a[0] - b[0];
             }
-
-            // Add the occupied chair with its departure time to the priority queue
-            pq.offer(new AbstractMap.SimpleEntry<>(depart, currSeat));
-
-            // Check if the current friend is the target friend
-            if (arrival == targetArrivalTime) {
-                return currSeat;
+        });
+        PriorityQueue<Integer> available = new PriorityQueue<>();
+        int chairNo=0;
+        for(int time[] : times){
+            int arrTime = time[0];
+            int leavingTime = time[1];
+            while(!occupied.isEmpty() && occupied.peek()[0] <= arrTime){
+                available.offer(occupied.poll()[1]);
             }
+            int currentChairNo;
+            if(available.isEmpty()){
+                currentChairNo = chairNo;
+                chairNo++;
+            }else{
+                currentChairNo = available.poll();
+            }
+            if(targetArrival == arrTime) return currentChairNo;
+            occupied.offer(new int[]{leavingTime, currentChairNo});
         }
-
-        return -1; // This case should never occur based on the problem constraints
+        return -1;
     }
 }
