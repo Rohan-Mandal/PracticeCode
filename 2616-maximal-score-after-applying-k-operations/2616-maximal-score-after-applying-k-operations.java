@@ -9,7 +9,7 @@ class Solution {
         while(k-- > 0){
             int value = pq.poll();
             score += value;
-            pq.offer((int) Math.ceil(value / 3.0));
+            pq.offer((value + 2)/ 3);
          }
         return score;
     }
