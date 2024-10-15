@@ -6,7 +6,7 @@ class Solution {
         for(int i = 0; i < len; i++){
             if(s.charAt(i) == '1'){
                 black++;
-            } else if(s.charAt(i) == '0'){
+            } else{
                 swap += black;
             }
         }
