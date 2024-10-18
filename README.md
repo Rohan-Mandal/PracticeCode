@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0046-permutations](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0046-permutations) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0729-my-calendar-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0729-my-calendar-i) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0567-permutation-in-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0567-permutation-in-string) |
 | [1923-sentence-similarity-iii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1923-sentence-similarity-iii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
