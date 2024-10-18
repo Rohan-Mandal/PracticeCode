@@ -1,47 +1,31 @@
 class Solution {
 
-    private List<List<Integer>> generateSubsets(int[] nums){
-        List<List<Integer>> subsets = new ArrayList<>();
-        subsets.add(new ArrayList<>());
-        for(int num : nums){
-            int size = subsets.size();
-            for(int i = 0; i < size; i++){
-                List<Integer> newSubset = new ArrayList<>(subsets.get(i));
-                newSubset.add(num);
-                subsets.add(newSubset);
-            }
-        }
-        return subsets;
-    }
-
-    private int calculateBitwiseOr(List<Integer> subset){
-        int orValue = 0;
-        for(int num : subset){
-            orValue |= num;
-        }
-        return orValue;
-    }
-
-    private int findMaxOrValue(int[] nums){
-        List<List<Integer>> subsets = generateSubsets(nums);
-        int maxOrValue = 0;
-        for(List<Integer> subset : subsets){
-            if(!subset.isEmpty()){
-                int currentValue = calculateBitwiseOr(subset);
-                maxOrValue = Math.max(maxOrValue, currentValue);
-            }
-        }
-        return maxOrValue;
-    }
     public int countMaxOrSubsets(int[] nums) {
-        List<List<Integer>> subsets = generateSubsets(nums);
-        int maxOrValue = findMaxOrValue(nums);
-        int count = 0;
-        for(List<Integer> subset : subsets){
-            if(!subset.isEmpty() && calculateBitwiseOr(subset) == maxOrValue){
-                count++;
+        int maxOrValue = 0;
+        int maxOrCount = 0;
+
+        // There are 2^n subsets for an array of length n
+        int totalSubsets = 1 << nums.length;
+
+        // Iterate through all possible subsets using bit manipulation
+        for (int i = 1; i < totalSubsets; i++) {
+            int currentOrValue = 0;
+            for (int j = 0; j < nums.length; j++) {
+                // Check if the j-th bit in i is set; if so, include nums[j] in the subset
+                if ((i & (1 << j)) != 0) {
+                    currentOrValue |= nums[j];
+                }
+            }
+
+            // Update maximum OR value and count occurrences of this maximum value
+            if (currentOrValue > maxOrValue) {
+                maxOrValue = currentOrValue;
+                maxOrCount = 1; // Reset the count since we found a new maximum
+            } else if (currentOrValue == maxOrValue) {
+                maxOrCount++; // Increment the count if current OR equals the max OR value
             }
         }
-        return count;
+        return maxOrCount;
+
     }
 }
