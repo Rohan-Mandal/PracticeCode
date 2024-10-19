@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0090-subsets-ii) |
+| [0795-k-th-symbol-in-grammar](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0795-k-th-symbol-in-grammar) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Prefix Sum
@@ -150,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0070-climbing-stairs) |
 | [0670-maximum-swap](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0670-maximum-swap) |
+| [0795-k-th-symbol-in-grammar](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0795-k-th-symbol-in-grammar) |
 | [1761-count-sorted-vowel-strings](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1761-count-sorted-vowel-strings) |
 | [2650-split-with-minimum-sum](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2650-split-with-minimum-sum) |
 ## Memoization
@@ -220,5 +222,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0795-k-th-symbol-in-grammar](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0795-k-th-symbol-in-grammar) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 <!---LeetCode Topics End-->
