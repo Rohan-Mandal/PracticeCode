@@ -5,13 +5,14 @@ class Solution {
     }
 
      private int solve(String s, int i, HashSet<String> set){
-        if(i == s.length()){
+        int len = s.length();
+        if(i == len){
             return 0;
         }
         int count = 0;
 
         // Try splitting the string starting from 'start' to each subsequent character
-        for (int j = i + 1; j <= s.length(); j++) {
+        for (int j = i + 1; j <= len; j++) {
             String currentSubstring = s.substring(i, j);
 
             // If the current substring hasn't been seen yet, add it to the set and recurse
