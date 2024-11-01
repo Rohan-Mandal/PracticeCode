@@ -1,19 +1,22 @@
 class Solution {
     public String makeFancyString(String s) {
-        StringBuilder result = new StringBuilder();
-        
+        char[] result = new char[s.length()];
+        int length = 0;  // Tracks current length of the valid fancy string
+
         for (int i = 0; i < s.length(); i++) {
             char current = s.charAt(i);
             
-            // Check if the last two characters in the result are the same as the current character
-            int len = result.length();
-            if (len >= 2 && result.charAt(len - 1) == current && result.charAt(len - 2) == current) {
-                continue;  // Skip adding current character
+            // Check if adding `current` would create three consecutive identical characters
+            if (length >= 2 && result[length - 1] == current && result[length - 2] == current) {
+                continue;  // Skip this character
             }
             
-            result.append(current);
+            // Otherwise, add `current` to the result array
+            result[length] = current;
+            length++;
         }
         
-        return result.toString();
+        // Convert the result array to a string based on the valid length
+        return new String(result, 0, length);
     }
 }
