@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0090-subsets-ii) |
 | [0795-k-th-symbol-in-grammar](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0795-k-th-symbol-in-grammar) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1435-xor-queries-of-a-subarray) |
+| [1441-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1441-minimum-flips-to-make-a-or-b-equal-to-c) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Prefix Sum
 |  |
