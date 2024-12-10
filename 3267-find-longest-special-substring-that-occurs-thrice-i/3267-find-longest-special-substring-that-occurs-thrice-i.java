@@ -1,30 +1,40 @@
 class Solution {
     public int maximumLength(String s) {
         int len = s.length();
+        if (len == 0) return -1; // Handle edge case for empty string.
 
-        Map<Pair<Character, Integer>, Integer> map = new HashMap<>();
-        int subStringLength = 0;
+        int[][] matrix = new int[26][len + 1]; // Extend size to len + 1.
+        char prevChar = s.charAt(0);
+        int length = 0;
 
-        for(int i = 0; i < len; i++){
+        // Populate the matrix with counts of consecutive character lengths.
+        for (int i = 0; i < len; i++) {
             char currChar = s.charAt(i);
-            subStringLength = 0;
-            for(int j = i; j < len; j++){
-                if(currChar == s.charAt(j)){
-                    subStringLength++;
-                    Pair<Character, Integer> key = new Pair<>(currChar, subStringLength);
-                    map.put(key, map.getOrDefault(key , 0) + 1);
-                } else{
+            if (currChar == prevChar) {
+                length++;
+                length = Math.min(length, len); // Prevent length from exceeding len.
+                matrix[currChar - 'a'][length]++;
+            } else {
+                length = 1;
+                matrix[currChar - 'a'][length]++;
+                prevChar = currChar;
+            }
+        }
+
+        int result = 0;
+
+        // Find the maximum length where cumulative count >= 3.
+        for (int row = 0; row < 26; row++) {
+            int cumSum = 0;
+            for (int col = len; col >= 1; col--) {
+                cumSum += matrix[row][col];
+                if (cumSum >= 3) {
+                    result = Math.max(result, col);
                     break;
                 }
             }
         }
-        int ans = 0;
-        for(Map.Entry<Pair<Character, Integer>, Integer> entry : map.entrySet()){
-            int length = entry.getKey().getValue();
-            if(entry.getValue() >= 3 && length > ans){
-                ans = length;
-            }
-        }
-        return ans == 0 ? -1 : ans;
+
+        return result == 0 ? -1 : result;
     }
 }
