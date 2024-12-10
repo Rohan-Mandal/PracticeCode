@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2755-extra-characters-in-a-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2755-extra-characters-in-a-string) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## String
 |  |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2755-extra-characters-in-a-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2755-extra-characters-in-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3195-separate-black-and-white-balls](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3195-separate-black-and-white-balls) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Dynamic Programming
 |  |
@@ -138,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -148,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2164-two-best-non-overlapping-events](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Design
 |  |
 | ------- |
@@ -224,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0567-permutation-in-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Backtracking
 |  |
 | ------- |
