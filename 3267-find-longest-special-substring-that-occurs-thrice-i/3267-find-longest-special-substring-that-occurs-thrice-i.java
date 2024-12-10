@@ -2,28 +2,29 @@ class Solution {
     public int maximumLength(String s) {
         int len = s.length();
 
-        Map<String, Integer> map = new HashMap<>();
+        Map<Pair<Character, Integer>, Integer> map = new HashMap<>();
+        int subStringLength = 0;
 
         for(int i = 0; i < len; i++){
-            StringBuilder currChar = new StringBuilder();
+            char currChar = s.charAt(i);
+            subStringLength = 0;
             for(int j = i; j < len; j++){
-                if(currChar.length() == 0 || currChar.charAt(currChar.length() - 1) == s.charAt(j)){
-                    currChar.append(s.charAt(j));
-                    map.put(currChar.toString(), map.getOrDefault(currChar.toString(), 0) + 1);
+                if(currChar == s.charAt(j)){
+                    subStringLength++;
+                    Pair<Character, Integer> key = new Pair<>(currChar, subStringLength);
+                    map.put(key, map.getOrDefault(key , 0) + 1);
                 } else{
                     break;
                 }
             }
         }
-
-        int result = 0;
-        for(Map.Entry<String, Integer> entry : map.entrySet()){
-            String str = entry.getKey();
-            int count = entry.getValue();
-            if(count >= 3 && str.length() > result){
-                result = str.length();
+        int ans = 0;
+        for(Map.Entry<Pair<Character, Integer>, Integer> entry : map.entrySet()){
+            int length = entry.getKey().getValue();
+            if(entry.getValue() >= 3 && length > ans){
+                ans = length;
             }
         }
-        return result == 0 ? -1 : result;
+        return ans == 0 ? -1 : ans;
     }
 }
