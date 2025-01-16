@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [2533-bitwise-xor-of-all-pairings](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2554-minimum-total-distance-traveled](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2586-longest-square-streak-in-an-array) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1441-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1441-minimum-flips-to-make-a-or-b-equal-to-c) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2509-minimize-xor](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2509-minimize-xor) |
+| [2533-bitwise-xor-of-all-pairings](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Prefix Sum
 |  |
@@ -367,4 +369,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+## Brainteaser
+|  |
+| ------- |
+| [2533-bitwise-xor-of-all-pairings](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2533-bitwise-xor-of-all-pairings) |
 <!---LeetCode Topics End-->
