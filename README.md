@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0090-subsets-ii) |
 | [0137-single-number-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0137-single-number-ii) |
+| [0407-trapping-rain-water-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0407-trapping-rain-water-ii) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0729-my-calendar-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0731-my-calendar-ii) |
@@ -307,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0407-trapping-rain-water-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0407-trapping-rain-water-ii) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1304-longest-happy-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1304-longest-happy-string) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -319,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0407-trapping-rain-water-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0407-trapping-rain-water-ii) |
 | [0921-spiral-matrix-iii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0921-spiral-matrix-iii) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -348,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0100-same-tree) |
 | [0226-invert-binary-tree](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0226-invert-binary-tree) |
+| [0407-trapping-rain-water-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
