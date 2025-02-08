@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2300-construct-string-with-repeat-limit) |
+| [2434-design-a-number-container-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2434-design-a-number-container-system) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -204,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0731-my-calendar-ii) |
 | [0859-design-circular-deque](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0859-design-circular-deque) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1497-design-a-stack-with-increment-operation) |
+| [2434-design-a-number-container-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2434-design-a-number-container-system) |
 ## Segment Tree
 |  |
 | ------- |
@@ -214,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0729-my-calendar-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0731-my-calendar-ii) |
+| [2434-design-a-number-container-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2434-design-a-number-container-system) |
 ## Queue
 |  |
 | ------- |
@@ -329,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2164-two-best-non-overlapping-events](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2300-construct-string-with-repeat-limit) |
+| [2434-design-a-number-container-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2434-design-a-number-container-system) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Matrix
