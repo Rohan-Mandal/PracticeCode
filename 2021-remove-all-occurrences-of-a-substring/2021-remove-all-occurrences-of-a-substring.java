@@ -1,8 +1,17 @@
 class Solution {
     public String removeOccurrences(String s, String part) {
-        while (s.contains(part)) {
-            s = s.replaceFirst(part, ""); // Remove the leftmost occurrence
+        StringBuilder stack = new StringBuilder();
+        int partLen = part.length();
+
+        for (char c : s.toCharArray()) {
+            stack.append(c);
+
+            // Check if the last `part.length()` characters match `part`
+            if (stack.length() >= partLen && stack.substring(stack.length() - partLen).equals(part)) {
+                stack.setLength(stack.length() - partLen); // Remove `part`
+            }
         }
-        return s;
+
+        return stack.toString();
     }
 }
