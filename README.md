@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3331-minimum-operations-to-exceed-threshold-value-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3331-minimum-operations-to-exceed-threshold-value-i) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Bit Manipulation
@@ -308,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3447-clear-digits) |
 ## Greedy
@@ -349,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2616-maximal-score-after-applying-k-operations) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 ## Matrix
 |  |
 | ------- |
