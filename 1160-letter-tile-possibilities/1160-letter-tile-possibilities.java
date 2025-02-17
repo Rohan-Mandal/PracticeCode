@@ -1,25 +1,20 @@
 class Solution {
     public int numTilePossibilities(String tiles) {
-        // Count frequency of each letter
-        Map<Character, Integer> freqMap = new HashMap<>();
+        int[] freq = new int[26];
         for (char c : tiles.toCharArray()) {
-            freqMap.put(c, freqMap.getOrDefault(c, 0) + 1);
+            freq[c - 'A']++; // Count occurrences
         }
-        
-        return backtrack(freqMap);
+        return backtrack(freq);
     }
 
-    private int backtrack(Map<Character, Integer> freqMap) {
+    private int backtrack(int[] freq) {
         int count = 0;
-        for (char c : freqMap.keySet()) {
-            if (freqMap.get(c) == 0) continue; // Skip if letter is unavailable
+        for (int i = 0; i < 26; i++) {
+            if (freq[i] == 0) continue;
             
-            // Use this letter
-            freqMap.put(c, freqMap.get(c) - 1);
-            count += 1 + backtrack(freqMap); // Include current choice and explore
-            
-            // Backtrack (restore frequency)
-            freqMap.put(c, freqMap.get(c) + 1);
+            freq[i]--; // Use the letter
+            count += 1 + backtrack(freq);
+            freq[i]++; // Backtrack
         }
         return count;
     }
