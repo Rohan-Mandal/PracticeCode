@@ -1,25 +1,25 @@
 class Solution {
     public int numTilePossibilities(String tiles) {
-        char[] arr = tiles.toCharArray();
-        Arrays.sort(arr); // Sorting helps in avoiding duplicates easily
-        boolean[] used = new boolean[arr.length];
-        return backtrack(arr, used);
+        // Count frequency of each letter
+        Map<Character, Integer> freqMap = new HashMap<>();
+        for (char c : tiles.toCharArray()) {
+            freqMap.put(c, freqMap.getOrDefault(c, 0) + 1);
+        }
+        
+        return backtrack(freqMap);
     }
 
-    private int backtrack(char[] arr, boolean[] used) {
+    private int backtrack(Map<Character, Integer> freqMap) {
         int count = 0;
-        for (int i = 0; i < arr.length; i++) {
-            if (used[i] == true){  // Skip duplicate letters in the same recursive level
-                continue;
-            }
-    
-            if (i > 0 && arr[i] == arr[i - 1] && !used[i - 1]){
-                continue;
-            }
-
-            used[i] = true; // do
-            count += 1 + backtrack(arr, used); // Include current choice and explore further
-            used[i] = false; // Backtrack or undo
+        for (char c : freqMap.keySet()) {
+            if (freqMap.get(c) == 0) continue; // Skip if letter is unavailable
+            
+            // Use this letter
+            freqMap.put(c, freqMap.get(c) - 1);
+            count += 1 + backtrack(freqMap); // Include current choice and explore
+            
+            // Backtrack (restore frequency)
+            freqMap.put(c, freqMap.get(c) + 1);
         }
         return count;
     }
