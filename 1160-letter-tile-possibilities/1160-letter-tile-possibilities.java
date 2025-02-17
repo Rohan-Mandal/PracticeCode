@@ -9,10 +9,13 @@ class Solution {
     private int backtrack(char[] arr, boolean[] used) {
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
-            if (used[i]) continue;
-            // Skip duplicate letters in the same recursive level
-            if (i > 0 && arr[i] == arr[i - 1] && !used[i - 1]) continue;
-
+            if (used[i] == true){  // Skip duplicate letters in the same recursive level
+                continue;
+            }
+    
+            if (i > 0 && arr[i] == arr[i - 1] && !used[i - 1]){
+                continue;
+            }
 
             used[i] = true; // do
             count += 1 + backtrack(arr, used); // Include current choice and explore further
