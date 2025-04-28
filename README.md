@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2164-two-best-non-overlapping-events](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2448-count-number-of-bad-pairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1694-make-sum-divisible-by-p](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1694-make-sum-divisible-by-p) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2691-count-vowel-strings-in-ranges) |
 ## Depth-First Search
@@ -208,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2164-two-best-non-overlapping-events](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2164-two-best-non-overlapping-events) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
@@ -303,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0567-permutation-in-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Backtracking
