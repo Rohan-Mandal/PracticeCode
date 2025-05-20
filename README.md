@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3639-zero-array-transformation-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3639-zero-array-transformation-i) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2691-count-vowel-strings-in-ranges) |
+| [3639-zero-array-transformation-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3639-zero-array-transformation-i) |
 ## Depth-First Search
 |  |
 | ------- |
