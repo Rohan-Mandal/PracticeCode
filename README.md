@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0046-permutations](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0046-permutations) |
+| [0073-set-matrix-zeroes](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0090-subsets-ii) |
 | [0137-single-number-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0137-single-number-ii) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0073-set-matrix-zeroes) |
 | [0432-all-oone-data-structure](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0432-all-oone-data-structure) |
 | [0567-permutation-in-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -387,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0073-set-matrix-zeroes) |
 | [0407-trapping-rain-water-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0407-trapping-rain-water-ii) |
 | [0921-spiral-matrix-iii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0921-spiral-matrix-iii) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1402-count-square-submatrices-with-all-ones) |
