@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3639-zero-array-transformation-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3639-zero-array-transformation-i) |
+| [3647-zero-array-transformation-iii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3647-zero-array-transformation-iii) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3639-zero-array-transformation-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3639-zero-array-transformation-i) |
+| [3647-zero-array-transformation-iii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3647-zero-array-transformation-iii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -283,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2650-split-with-minimum-sum](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2650-split-with-minimum-sum) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3321-type-of-triangle](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3321-type-of-triangle) |
+| [3647-zero-array-transformation-iii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3647-zero-array-transformation-iii) |
 ## Math
 |  |
 | ------- |
@@ -365,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2650-split-with-minimum-sum](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2650-split-with-minimum-sum) |
 | [3195-separate-black-and-white-balls](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3195-separate-black-and-white-balls) |
+| [3647-zero-array-transformation-iii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3647-zero-array-transformation-iii) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -386,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
+| [3647-zero-array-transformation-iii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3647-zero-array-transformation-iii) |
 ## Matrix
 |  |
 | ------- |
