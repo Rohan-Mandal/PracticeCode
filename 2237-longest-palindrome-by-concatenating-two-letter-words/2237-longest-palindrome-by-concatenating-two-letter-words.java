@@ -1,30 +1,30 @@
 class Solution {
     public int longestPalindrome(String[] words) {
-        Map<String, Integer> map = new HashMap<>();
+        int[][] count = new int[26][26]; // 676 possible 2-letter lowercase words
         int result = 0;
         boolean hasMiddle = false;
 
         for (String word : words) {
-            String reversed = new StringBuilder(word).reverse().toString();
-            if (map.getOrDefault(reversed, 0) > 0) {
-                result += 4;  // each pair adds 4 characters
-                map.put(reversed, map.get(reversed) - 1);
+            int a = word.charAt(0) - 'a';
+            int b = word.charAt(1) - 'a';
+
+            if (count[b][a] > 0) {
+                // Pair found: (word) and its reverse already exists
+                result += 4;
+                count[b][a]--;
             } else {
-                map.put(word, map.getOrDefault(word, 0) + 1);
+                // Store for future pairing
+                count[a][b]++;
             }
         }
 
-        // check if there is a word like "gg" that can be used in the middle
-        for (Map.Entry<String, Integer> entry : map.entrySet()) {
-            String word = entry.getKey();
-            int count = entry.getValue();
-            if (word.charAt(0) == word.charAt(1) && count > 0) {
-                hasMiddle = true;
+        // Check for a palindromic word (like "gg") to put in the center
+        for (int i = 0; i < 26; i++) {
+            if (count[i][i] > 0) {
+                result += 2;
                 break;
             }
         }
-
-        if (hasMiddle) result += 2; // add 1 self-palindrome word in center
 
         return result;
     }
