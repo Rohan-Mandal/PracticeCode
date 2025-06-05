@@ -1,47 +1,35 @@
 class Solution {
     public int candy(int[] ratings) {
         int n = ratings.length;
+        int candy  = n;
+        int i = 1; 
 
-        int[] L2R = new int[n];
-        int[] R2L = new int[n];
-
-        Arrays.fill(L2R, 1);
-        Arrays.fill(R2L, 1);
-
-        for (int i = 1; i < n; i++) {
-            if (ratings[i] > ratings[i - 1]) {
-                L2R[i] = L2R[i - 1] + 1;
+        while(i < n){
+            if(ratings[i] == ratings[i - 1]){
+                i++;
+                continue;
             }
-        }
 
-        for (int i = n - 2; i >= 0; i--) {
-            if (ratings[i] > ratings[i + 1]) {
-                R2L[i] = R2L[i + 1] + 1;
+            //Increaseing slope --> peak
+            int peak = 0;
+            while(ratings[i] > ratings[i -1]){
+                peak++;
+                candy += peak;
+                i++;
+                if(i == n){
+                    return candy;
+                }
             }
+
+            //Decreasing slope --> dip
+            int dip = 0;
+            while(i < n && ratings[i] < ratings[i - 1]){
+                dip++;
+                candy += dip;
+                i++;
+            }
+            candy -= Math.min(peak, dip);
         }
-        int result = 0;
-        for(int i = 0; i < n; i++){
-            result += Math.max(L2R[i], R2L[i]);
-        }
-        // //First comparing with only left neighbour
-        // for (int i = 1; i < n; i++) {
-        //     if (ratings[i] > ratings[i - 1]) {
-        //         L2R[i] = Math.max(L2R[i], L2R[i - 1] + 1);
-        //     }
-        // }
-
-        // //Then comparing with only right neighbour
-        // for (int i = n - 2; i >= 0; i--) {
-        //     if (ratings[i] > ratings[i + 1]) {
-        //         R2L[i] = Math.max(R2L[i], R2L[i + 1] + 1);
-        //     }
-        // }
-
-        // int result = 0;
-        // for (int i = 0; i < n; i++) {
-        //     result += Math.max(L2R[i], R2L[i]);
-        // }
-
-        return result;
+        return candy;
     }
 }
