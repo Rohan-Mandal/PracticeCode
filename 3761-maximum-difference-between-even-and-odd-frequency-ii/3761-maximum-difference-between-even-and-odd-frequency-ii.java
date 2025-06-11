@@ -1,58 +1,48 @@
-public class Solution {
-
-    private int getState(int countA, int countB) {
-        int parityA = countA % 2;
-        int parityB = countB % 2;
-
-        if (parityA == 0 && parityB == 0) return 0; // even-even
-        if (parityA == 0 && parityB == 1) return 1; // even-odd
-        if (parityA == 1 && parityB == 0) return 2; // odd-even ✅ target
-        return 3; // odd-odd
-    }
+class Solution {
 
     public int maxDifference(String s, int k) {
         int n = s.length();
-        int result = Integer.MIN_VALUE;
+        int ans = Integer.MIN_VALUE;
+        for (char a = '0'; a <= '4'; ++a) {
+            for (char b = '0'; b <= '4'; ++b) {
+                if (a == b) {
+                    continue;
+                }
+                int[] best = new int[4];
+                Arrays.fill(best, Integer.MAX_VALUE);
+                int cnt_a = 0, cnt_b = 0;
+                int prev_a = 0, prev_b = 0;
+                int left = -1;
 
-        for (char a = '0'; a <= '4'; a++) {
-            for (char b = '0'; b <= '4'; b++) {
-                if (a == b) continue;
+                for (int right = 0; right < n; ++right) {
+                    cnt_a += (s.charAt(right) == a) ? 1 : 0;
+                    cnt_b += (s.charAt(right) == b) ? 1 : 0;
 
-                // For tracking the minimum diff (a - b) for each of the 4 parity states
-                int[] stateMinDiff = new int[4];
-                Arrays.fill(stateMinDiff, Integer.MAX_VALUE);
-
-                int countA = 0, countB = 0;
-                int prevA = 0, prevB = 0;
-                int l = -1, r = 0;
-
-                while (r < n) {
-                    if (s.charAt(r) == a) countA++;
-                    if (s.charAt(r) == b) countB++;
-
-                    while ((r - l) >= k && (countB - prevB >= 2) && (countA - prevA >= 1)) {
-                        int leftState = getState(prevA, prevB);
-                        int diff = prevA - prevB;
-                        stateMinDiff[leftState] = Math.min(stateMinDiff[leftState], diff);
-
-                        l++;
-                        if (s.charAt(l) == a) prevA++;
-                        if (s.charAt(l) == b) prevB++;
+                    while (right - left >= k && cnt_b - prev_b >= 2) {
+                        int left_status = getStatus(prev_a, prev_b);
+                        best[left_status] = Math.min(
+                            best[left_status],
+                            prev_a - prev_b
+                        );
+                        ++left;
+                        prev_a += (s.charAt(left) == a) ? 1 : 0;
+                        prev_b += (s.charAt(left) == b) ? 1 : 0;
                     }
 
-                    int rightState = getState(countA, countB);
-                    int bestLeftState = rightState ^ 2; // Flip parity of a only
-
-                    if (stateMinDiff[bestLeftState] != Integer.MAX_VALUE) {
-                        int currentDiff = (countA - countB) - stateMinDiff[bestLeftState];
-                        result = Math.max(result, currentDiff);
+                    int right_status = getStatus(cnt_a, cnt_b);
+                    if (best[right_status ^ 0b10] != Integer.MAX_VALUE) {
+                        ans = Math.max(
+                            ans,
+                            cnt_a - cnt_b - best[right_status ^ 0b10]
+                        );
                     }
-
-                    r++;
                 }
             }
         }
+        return ans;
+    }
 
-        return result == Integer.MIN_VALUE ? -1 : result;
+    private int getStatus(int cnt_a, int cnt_b) {
+        return ((cnt_a & 1) << 1) | (cnt_b & 1);
     }
 }
