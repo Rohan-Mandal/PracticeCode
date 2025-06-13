@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2685-first-completely-painted-row-or-column) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2691-count-vowel-strings-in-ranges) |
+| [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [2755-extra-characters-in-a-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2755-extra-characters-in-a-string) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2792-neighboring-bitwise-xor) |
@@ -246,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Design
@@ -401,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2650-split-with-minimum-sum](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2650-split-with-minimum-sum) |
+| [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3195-separate-black-and-white-balls](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3195-separate-black-and-white-balls) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3647-zero-array-transformation-iii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3647-zero-array-transformation-iii) |
