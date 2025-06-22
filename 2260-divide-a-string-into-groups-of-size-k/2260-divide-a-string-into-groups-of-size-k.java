@@ -1,21 +1,26 @@
 class Solution {
     public String[] divideString(String s, int k, char fill) {
+        List<String> result = new ArrayList<>();
         int n = s.length();
-        int groupCount = (n + k - 1) / k;
-        String[] result = new String[groupCount];
+        int i = 0;
 
-        int index = 0;
-        for(int i = 0; i < n; i += k){
-            StringBuilder sb = new StringBuilder();
-            for(int j = 0; j < k; j++){
-                if(i + j < n){
-                    sb.append(s.charAt(i + j));
-                } else{
-                    sb.append(fill);
+        while (i < n) {
+            int j = (i + k - 1 >= n) ? n - 1 : (i + k - 1);
+            String temp = s.substring(i, j + 1);
+
+            if ((j - i + 1) < k) {
+                int remain = k - (j - i + 1);
+                StringBuilder tempBuilder = new StringBuilder(temp);
+                for (int x = 0; x < remain; x++) {
+                    tempBuilder.append(fill);
                 }
+                temp = tempBuilder.toString();
             }
-            result[index++] = sb.toString();
+
+            result.add(temp);
+            i += k;
         }
-        return result;
+
+        return result.toArray(new String[0]);
     }
 }
