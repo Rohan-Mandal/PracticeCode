@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [2320-find-all-k-distant-indices-in-an-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2448-count-number-of-bad-pairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2448-count-number-of-bad-pairs) |
@@ -363,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0985-bag-of-tokens](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0985-bag-of-tokens) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1923-sentence-similarity-iii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1923-sentence-similarity-iii) |
+| [2320-find-all-k-distant-indices-in-an-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [3195-separate-black-and-white-balls](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3195-separate-black-and-white-balls) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
