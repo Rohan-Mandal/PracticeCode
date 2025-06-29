@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1497-design-a-stack-with-increment-operation](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1694-make-sum-divisible-by-p](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1694-make-sum-divisible-by-p) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -258,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0729-my-calendar-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0731-my-calendar-ii) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
@@ -321,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0985-bag-of-tokens](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0985-bag-of-tokens) |
 | [1256-rank-transform-of-an-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1256-rank-transform-of-an-array) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2164-two-best-non-overlapping-events](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -375,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0567-permutation-in-string) |
 | [0985-bag-of-tokens](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0985-bag-of-tokens) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1923-sentence-similarity-iii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1923-sentence-similarity-iii) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
