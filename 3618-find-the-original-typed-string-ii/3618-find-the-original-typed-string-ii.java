@@ -1,56 +1,48 @@
 class Solution {
-    int M = (int)1e9 + 7;
-
     public int possibleStringCount(String word, int k) {
-        if (k > word.length()) return 0;
-
-        List<Integer> freq = new ArrayList<>();
-        int count = 1;
-        for (int i = 1; i < word.length(); i++) {
-            if (word.charAt(i) == word.charAt(i - 1)) {
-                count++;
-            } else {
-                freq.add(count);
-                count = 1;
+        final int MODULO = (int) (1e9 + 7);
+        int wordLength = word.length();
+        List<Integer> characterGroups = new ArrayList<>();
+        
+        for (int index = 0; index < wordLength;) {
+            int characterCount = 1;
+            char currentCharacter = word.charAt(index++);
+            while (index < wordLength && word.charAt(index) == currentCharacter) {
+                characterCount++;
+                index++;
             }
-        }
-        freq.add(count);
-
-        long P = 1; // total possible strings
-        for (int f : freq) {
-            P = (P * f) % M;
+            characterGroups.add(characterCount);
         }
 
-        if (freq.size() >= k) return (int) P;
-
-        int n = freq.size();
-        int[][] t = new int[n + 1][k + 1];
-
-        for (int c = k - 1; c >= 0; c--) {
-            t[n][c] = 1;
+        long totalCombinations = 1;
+        for (int groupCount : characterGroups) {
+            totalCombinations = (totalCombinations * groupCount) % MODULO;
         }
 
-        for (int i = n - 1; i >= 0; i--) {
-            int[] prefix = new int[k + 2];
-            for (int h = 1; h <= k; h++) {
-                prefix[h] = (prefix[h - 1] + t[i + 1][h - 1]) % M;
+        if (k <= characterGroups.size()) {
+            return (int) totalCombinations;
+        }
+
+        int maxSize = k - 1;
+        int[] dp = new int[maxSize + 1];
+        dp[0] = 1;
+
+        for (int count : characterGroups) {
+            int[] newDP = new int[maxSize + 1];
+            long cumulativeSum = 0;
+            for (int s = 0; s <= maxSize; s++) {
+                if (s - 1 >= 0) cumulativeSum = (cumulativeSum + dp[s - 1]) % MODULO;
+                if (s - count - 1 >= 0) cumulativeSum = (cumulativeSum - dp[s - count - 1] + MODULO) % MODULO;
+                newDP[s] = (int) cumulativeSum;
             }
-
-            for (int c = k - 1; c >= 0; c--) {
-                int l = c + 1;
-                int r = c + freq.get(i);
-
-                if (r + 1 > k) {
-                    r = k - 1;
-                }
-
-                if (l <= r) {
-                    t[i][c] = (prefix[r + 1] - prefix[l] + M) % M;
-                }
-            }
+            dp = newDP;
         }
 
-        long invalidCount = t[0][0];
-        return (int)((P - invalidCount + M) % M);
+        long totalLessThanK = 0;
+        for (int s = characterGroups.size(); s <= maxSize; s++) {
+            totalLessThanK = (totalLessThanK + dp[s]) % MODULO;
+        }
+
+        return (int) ((totalCombinations - totalLessThanK + MODULO) % MODULO);
     }
 }
