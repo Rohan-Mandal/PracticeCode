@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2792-neighboring-bitwise-xor) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -361,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3201-distribute-candies-among-children-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3201-distribute-candies-among-children-ii) |
 | [3321-type-of-triangle](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3321-type-of-triangle) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Memoization
@@ -423,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3447-clear-digits) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Greedy
 |  |
 | ------- |
@@ -506,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0795-k-th-symbol-in-grammar](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0795-k-th-symbol-in-grammar) |
 | [1197-parsing-a-boolean-expression](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1197-parsing-a-boolean-expression) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Tree
 |  |
 | ------- |
