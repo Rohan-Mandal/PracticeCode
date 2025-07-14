@@ -10,23 +10,11 @@
  */
 class Solution {
     public int getDecimalValue(ListNode head) {
-
-        StringBuilder sb = new StringBuilder();
+        int result = 0;
 
         while(head != null){
-            sb.append(head.val);
+            result = result * 2 + head.val;
             head = head.next;
-        }
-
-        int len = sb.length();
-        int result = 0;
-        int power = 0;
-
-        for(int i = len - 1; i >= 0; i--){
-            if(sb.charAt(i) == '1'){
-                result += Math.pow(2, power);
-            }
-            power++;
         }
         return result;        
     }
