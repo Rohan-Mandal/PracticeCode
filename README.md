@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0432-all-oone-data-structure](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0859-design-circular-deque) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 ## Array
 |  |
 | ------- |
@@ -355,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0070-climbing-stairs) |
 | [0670-maximum-swap](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0670-maximum-swap) |
 | [0795-k-th-symbol-in-grammar](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0795-k-th-symbol-in-grammar) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1761-count-sorted-vowel-strings](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1761-count-sorted-vowel-strings) |
