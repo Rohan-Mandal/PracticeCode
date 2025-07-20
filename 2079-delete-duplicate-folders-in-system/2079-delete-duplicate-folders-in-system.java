@@ -1,94 +1,64 @@
-import java.util.*;
 class Solution {
-    
-    static class Node {
-        String val;
-        String subFolder;
-        Map<String, Node> children;
+    class Node {
+        Map<String, Node> subNodes = new TreeMap<>();
 
-        Node(String val) {
-            this.val = val;
-            this.subFolder = "";
-            this.children = new HashMap<>();
-        }
-    }
+        String content = "";
 
-    private Node getNode(String val) {
-        return new Node(val);
-    }
+        boolean remove = false;
 
-    private void insert(Node root, List<String> path) {
-        for (String folder : path) {
-            root.children.putIfAbsent(folder, getNode(folder));
-            root = root.children.get(folder);
-        }
-    }
-
-    private String populateNodes(Node root, Map<String, Integer> subFolderMap) {
-        List<Map.Entry<String, String>> subFolderPaths = new ArrayList<>();
-
-        for (Map.Entry<String, Node> entry : root.children.entrySet()) {
-            String subFolderResult = populateNodes(entry.getValue(), subFolderMap);
-            subFolderPaths.add(new AbstractMap.SimpleEntry<>(entry.getKey(), subFolderResult));
-        }
-
-        subFolderPaths.sort(Comparator.comparing(Map.Entry::getKey));
-
-        StringBuilder completePath = new StringBuilder();
-        for (Map.Entry<String, String> entry : subFolderPaths) {
-            completePath.append("(").append(entry.getKey()).append(entry.getValue()).append(")");
-        }
-
-        root.subFolder = completePath.toString();
-
-        if (!completePath.toString().isEmpty()) {
-            subFolderMap.put(completePath.toString(), subFolderMap.getOrDefault(completePath.toString(), 0) + 1);
-        }
-
-        return completePath.toString();
-    }
-
-    private void removeDuplicates(Node root, Map<String, Integer> subFolderMap) {
-        Iterator<Map.Entry<String, Node>> it = root.children.entrySet().iterator();
-
-        while (it.hasNext()) {
-            Map.Entry<String, Node> entry = it.next();
-            Node child = entry.getValue();
-
-            if (!child.subFolder.isEmpty() && subFolderMap.get(child.subFolder) > 1) {
-                it.remove();
-            } else {
-                removeDuplicates(child, subFolderMap);
+        void markRemove() {
+            if (remove) {
+                return;
+            }
+            remove = true;
+            if (subNodes != null) {
+                for (Node value : subNodes.values()) {
+                    value.markRemove();
+                }
             }
         }
     }
 
-    private void construstResult(Node root, List<String> path, List<List<String>> result) {
-        for (Map.Entry<String, Node> entry : root.children.entrySet()) {
-            path.add(entry.getKey());
-            result.add(new ArrayList<>(path));
-            construstResult(entry.getValue(), path, result);
-            path.remove(path.size() - 1);
-        }
-    }
-
     public List<List<String>> deleteDuplicateFolder(List<List<String>> paths) {
-        Node root = getNode("/");
-
-        // Construct trie
-        for (List<String> path : paths) {
-            insert(root, path);
+        paths.sort(Comparator.comparingInt(List::size));
+        List<Node> nodes = new ArrayList<>(paths.size());
+        Node rootNode = new Node();
+        for (List<String> pathList : paths) {
+            Node current = rootNode;
+            int last = pathList.size() - 1;
+            for (int i = 0; i < last; i++) {
+                String s = pathList.get(i);
+                current = current.subNodes.get(s);
+            }
+            String name = pathList.get(last);
+            Node node = new Node();
+            current.subNodes.put(name, node);
+            nodes.add(node);
         }
-
-        Map<String, Integer> subFolderMap = new HashMap<>();
-        populateNodes(root, subFolderMap);
-
-        removeDuplicates(root, subFolderMap);
-
-        List<List<String>> result = new ArrayList<>();
-        List<String> path = new ArrayList<>();
-        construstResult(root, path, result);
-
-        return result;
+        StringBuilder content = new StringBuilder();
+        Map<String, Node> nodeByContent = new HashMap<>();
+        for (int i = nodes.size() - 1; i >= 0; i--) {
+            Node node = nodes.get(i);
+            if (node.subNodes.isEmpty()) {
+                continue;
+            }
+            for (Map.Entry<String, Node> entry : node.subNodes.entrySet()) {
+                content.append(entry.getKey()).append('{').append(entry.getValue().content).append('}');
+            }
+            node.content = content.toString();
+            content.delete(0, content.length());
+            Node similar = nodeByContent.putIfAbsent(node.content, node);
+            if (similar != null) {
+                node.markRemove();
+                similar.markRemove();
+            }
+        }
+        List<List<String>> ans = new ArrayList<>();
+        for (int i = 0; i < paths.size(); i++) {
+            if (!nodes.get(i).remove) {
+                ans.add(paths.get(i));
+            }
+        }
+        return ans;
     }
 }
