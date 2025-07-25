@@ -1,17 +1,18 @@
 class Solution {
     public int maxSum(int[] nums) {
-        int[] unique = new int[101];
+        // int[] unique = new int[101];
+        Set<Integer> set = new HashSet<>();
 
-        Arrays.fill(unique, -1);
+        // Arrays.fill(unique, -1);
         int maxNegative = Integer.MIN_VALUE;
         int sum = 0;
 
-        for(int num : nums){
-            if(num <= 0){
+        for (int num : nums) {
+            if (num <= 0) {
                 maxNegative = Math.max(maxNegative, num);
-            } else if(unique[num] == -1){
+            } else if (!set.contains(num)) {
                 sum += num;
-                unique[num] = 1;
+                set.add(num);
             }
         }
         return sum == 0 ? maxNegative : sum;
