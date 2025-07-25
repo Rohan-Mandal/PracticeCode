@@ -1,9 +1,7 @@
 class Solution {
     public int maxSum(int[] nums) {
-        // int[] unique = new int[101];
         Set<Integer> set = new HashSet<>();
-
-        // Arrays.fill(unique, -1);
+        
         int maxNegative = Integer.MIN_VALUE;
         int sum = 0;
 
