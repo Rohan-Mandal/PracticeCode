@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0046-permutations) |
+| [0053-maximum-subarray](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0090-subsets-ii) |
@@ -264,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0070-climbing-stairs) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
@@ -656,4 +658,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2079-delete-duplicate-folders-in-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2079-delete-duplicate-folders-in-system) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
