@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0090-subsets-ii) |
 | [0135-candy](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0135-candy) |
 | [0137-single-number-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0137-single-number-ii) |
+| [0238-product-of-array-except-self](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0238-product-of-array-except-self) |
 | [0407-trapping-rain-water-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0407-trapping-rain-water-ii) |
 | [0455-assign-cookies](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0455-assign-cookies) |
 | [0498-diagonal-traverse](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0498-diagonal-traverse) |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0560-subarray-sum-equals-k) |
 | [0731-my-calendar-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0731-my-calendar-ii) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1016-subarray-sums-divisible-by-k) |
