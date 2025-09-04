@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0090-subsets-ii) |
 | [0135-candy](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0135-candy) |
 | [0137-single-number-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0137-single-number-ii) |
+| [0217-contains-duplicate](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0238-product-of-array-except-self) |
 | [0407-trapping-rain-water-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0407-trapping-rain-water-ii) |
 | [0455-assign-cookies](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0455-assign-cookies) |
@@ -178,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0073-set-matrix-zeroes) |
+| [0217-contains-duplicate](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0217-contains-duplicate) |
 | [0432-all-oone-data-structure](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0432-all-oone-data-structure) |
 | [0560-subarray-sum-equals-k](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0567-permutation-in-string) |
@@ -374,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0217-contains-duplicate) |
 | [0455-assign-cookies](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0455-assign-cookies) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0985-bag-of-tokens](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0985-bag-of-tokens) |
