@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0090-subsets-ii) |
+| [0128-longest-consecutive-sequence](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0128-longest-consecutive-sequence) |
 | [0135-candy](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0135-candy) |
 | [0137-single-number-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0137-single-number-ii) |
 | [0217-contains-duplicate](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0217-contains-duplicate) |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0073-set-matrix-zeroes) |
+| [0128-longest-consecutive-sequence](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0242-valid-anagram) |
 | [0432-all-oone-data-structure](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0432-all-oone-data-structure) |
@@ -663,6 +665,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0128-longest-consecutive-sequence) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Topological Sort
