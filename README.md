@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
@@ -382,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2470-removing-stars-from-a-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2470-removing-stars-from-a-string) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
@@ -431,6 +433,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1761-count-sorted-vowel-strings](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1761-count-sorted-vowel-strings) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2202-sum-of-k-mirror-numbers) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2650-split-with-minimum-sum](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2650-split-with-minimum-sum) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2704-maximum-difference-by-remapping-a-digit) |
@@ -704,4 +707,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
+## Number Theory
+|  |
+| ------- |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 <!---LeetCode Topics End-->
