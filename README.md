@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3748-sort-matrix-by-diagonals](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3748-sort-matrix-by-diagonals) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
+| [3827-implement-router](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3827-implement-router) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3827-implement-router](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3827-implement-router) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## String
 |  |
@@ -344,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3827-implement-router](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3827-implement-router) |
 ## Design
 |  |
 | ------- |
@@ -356,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1497-design-a-stack-with-increment-operation](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1497-design-a-stack-with-increment-operation) |
 | [2429-design-a-food-rating-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2434-design-a-number-container-system) |
+| [3827-implement-router](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3827-implement-router) |
 ## Segment Tree
 |  |
 | ------- |
@@ -369,11 +373,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0731-my-calendar-ii) |
 | [2429-design-a-food-rating-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2434-design-a-number-container-system) |
+| [3827-implement-router](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3827-implement-router) |
 ## Queue
 |  |
 | ------- |
 | [0859-design-circular-deque](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0859-design-circular-deque) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+| [3827-implement-router](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3827-implement-router) |
 ## Doubly-Linked List
 |  |
 | ------- |
