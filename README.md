@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1917-maximum-average-pass-ratio](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1917-maximum-average-pass-ratio) |
 | [1923-sentence-similarity-iii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1923-sentence-similarity-iii) |
+| [2023-design-movie-rental-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2023-design-movie-rental-system) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2144-maximum-difference-between-increasing-elements) |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1813-maximum-erasure-value](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1813-maximum-erasure-value) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [2023-design-movie-rental-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2023-design-movie-rental-system) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -357,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0947-online-election](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0947-online-election) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1497-design-a-stack-with-increment-operation) |
+| [2023-design-movie-rental-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2023-design-movie-rental-system) |
 | [2429-design-a-food-rating-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2434-design-a-number-container-system) |
 | [3827-implement-router](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3827-implement-router) |
@@ -371,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0729-my-calendar-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0731-my-calendar-ii) |
+| [2023-design-movie-rental-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2023-design-movie-rental-system) |
 | [2429-design-a-food-rating-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2434-design-a-number-container-system) |
 | [3827-implement-router](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3827-implement-router) |
@@ -579,6 +583,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1304-longest-happy-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1304-longest-happy-string) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1917-maximum-average-pass-ratio](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1917-maximum-average-pass-ratio) |
+| [2023-design-movie-rental-system](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2023-design-movie-rental-system) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2164-two-best-non-overlapping-events](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Rohan-Mandal/PracticeCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
