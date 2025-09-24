@@ -190,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0128-longest-consecutive-sequence) |
+| [0166-fraction-to-recurring-decimal](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0217-contains-duplicate](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0242-valid-anagram) |
 | [0432-all-oone-data-structure](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0432-all-oone-data-structure) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0125-valid-palindrome) |
+| [0166-fraction-to-recurring-decimal](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0242-valid-anagram](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0242-valid-anagram) |
 | [0567-permutation-in-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0567-permutation-in-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -444,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0070-climbing-stairs) |
+| [0166-fraction-to-recurring-decimal](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0670-maximum-swap](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0670-maximum-swap) |
 | [0795-k-th-symbol-in-grammar](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0795-k-th-symbol-in-grammar) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
