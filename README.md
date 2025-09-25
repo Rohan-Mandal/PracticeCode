@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0090-subsets-ii) |
+| [0120-triangle](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0120-triangle) |
 | [0128-longest-consecutive-sequence](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0128-longest-consecutive-sequence) |
 | [0135-candy](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0135-candy) |
 | [0137-single-number-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0137-single-number-ii) |
@@ -299,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0070-climbing-stairs) |
+| [0120-triangle](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0120-triangle) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1761-count-sorted-vowel-strings](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1761-count-sorted-vowel-strings) |
