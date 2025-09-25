@@ -26,17 +26,35 @@ class Solution {
         //     return dp[row][col];
 
         // Approach 2:- Bottom-up (In-place)
-        int n = triangle.size();
+        // int n = triangle.size();
 
         // Start from second last row, move upwards
+        // for (int row = n - 2; row >= 0; row--) {
+        //     for (int col = 0; col < triangle.get(row).size(); col++) {
+        //         int up = triangle.get(row + 1).get(col);
+        //         int upDiag = triangle.get(row + 1).get(col + 1);
+        //         int minVal = triangle.get(row).get(col) + Math.min(up, upDiag);
+        //         triangle.get(row).set(col, minVal);
+        //     }
+        // }
+        // return triangle.get(0).get(0);
+
+        // Approach 3: 1D dp array
+        int n = triangle.size();
+        int[] dp = new int[n];
+
+        // initialize dp with last row
+        for (int i = 0; i < n; i++) {
+            dp[i] = triangle.get(n - 1).get(i);
+        }
+
+        // build from bottom up
         for (int row = n - 2; row >= 0; row--) {
-            for (int col = 0; col < triangle.get(row).size(); col++) {
-                int up = triangle.get(row + 1).get(col);
-                int upDiag = triangle.get(row + 1).get(col + 1);
-                int minVal = triangle.get(row).get(col) + Math.min(up, upDiag);
-                triangle.get(row).set(col, minVal);
+            for (int col = 0; col <= row; col++) {
+                dp[col] = triangle.get(row).get(col) + Math.min(dp[col], dp[col + 1]);
             }
         }
-        return triangle.get(0).get(0);
+
+        return dp[0];
     }
 }
