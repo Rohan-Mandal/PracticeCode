@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0455-assign-cookies) |
 | [0498-diagonal-traverse](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0498-diagonal-traverse) |
 | [0560-subarray-sum-equals-k](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0560-subarray-sum-equals-k) |
+| [0611-valid-triangle-number](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0611-valid-triangle-number) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0729-my-calendar-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0731-my-calendar-ii) |
@@ -339,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0611-valid-triangle-number](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0611-valid-triangle-number) |
 | [0729-my-calendar-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0731-my-calendar-ii) |
 | [0947-online-election](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0947-online-election) |
@@ -420,6 +422,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0242-valid-anagram) |
 | [0455-assign-cookies](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0455-assign-cookies) |
+| [0611-valid-triangle-number](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0611-valid-triangle-number) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0985-bag-of-tokens](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0985-bag-of-tokens) |
 | [1256-rank-transform-of-an-array](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1256-rank-transform-of-an-array) |
@@ -492,6 +495,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0125-valid-palindrome) |
 | [0455-assign-cookies](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0455-assign-cookies) |
 | [0567-permutation-in-string](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0567-permutation-in-string) |
+| [0611-valid-triangle-number](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0611-valid-triangle-number) |
 | [0985-bag-of-tokens](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0985-bag-of-tokens) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -546,6 +550,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0135-candy](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0135-candy) |
 | [0455-assign-cookies](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0455-assign-cookies) |
+| [0611-valid-triangle-number](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0611-valid-triangle-number) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0670-maximum-swap](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0670-maximum-swap) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
