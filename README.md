@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0729-my-calendar-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0731-my-calendar-ii) |
+| [0830-largest-triangle-area](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0830-largest-triangle-area) |
 | [0859-design-circular-deque](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0859-design-circular-deque) |
 | [0921-spiral-matrix-iii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0921-spiral-matrix-iii) |
 | [0947-online-election](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0947-online-election) |
@@ -454,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0166-fraction-to-recurring-decimal](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0670-maximum-swap](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0670-maximum-swap) |
 | [0795-k-th-symbol-in-grammar](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0795-k-th-symbol-in-grammar) |
+| [0830-largest-triangle-area](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0830-largest-triangle-area) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Rohan-Mandal/PracticeCode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
@@ -735,6 +737,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Geometry
 |  |
 | ------- |
+| [0830-largest-triangle-area](https://github.com/Rohan-Mandal/PracticeCode/tree/master/0830-largest-triangle-area) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Rohan-Mandal/PracticeCode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 ## Number Theory
